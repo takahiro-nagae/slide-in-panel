@@ -8,7 +8,7 @@ const Page1: React.FC = () => {
       <h1>Page 1</h1>
       <p>This is the content of Page 1.</p>
       <p>
-        <a href="/page2">Go to Page 2</a>
+        <a href="/#/page2" target='_top'>Go to Page 2</a>
       </p>
       <p>
         <a href="http://example.com" target='_blank'>Go to example.com</a>

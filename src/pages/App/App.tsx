@@ -10,7 +10,7 @@ const App: React.FC = () => {
     <div>
       <Header />
       <div>
-        <button onClick={() => handleOpen('/page1')}>Open Panel with Page 1</button>
+        <button onClick={() => handleOpen('/#/page1')}>Open Panel with Page 1</button>
       </div>
       {isOpen && <SlideInPanel {...panel} /> }
     </div>
